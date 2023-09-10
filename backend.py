@@ -65,5 +65,6 @@ def show_try():
 def show_explore():
 
     st.write("<h1 style='text-align:center;'> Explore the model </h1>", unsafe_allow_html=True)
+    st.write("<p style='text-align:center'> work in progress... </p>",unsafe_allow_html=True)
 
     return
