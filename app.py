@@ -1,6 +1,5 @@
 import streamlit as st
-import joblib
-# from backend import show_explore, show_try
+from backend import show_explore, show_try
 
 st.set_page_config(
     page_title="House Price Predictor",
@@ -11,12 +10,10 @@ st.set_page_config(
 # Sidebar 
 pages = ['Try the model', 'Explore the model']
 page = st.sidebar.selectbox('', pages)
-enc = joblib.load('cols.joblib')
-st.write(enc)
 
-# # Pages
-# if page == 'Try the model':
-#     show_try()
+# Pages
+if page == 'Try the model':
+    show_try()
 
-# if page == 'Explore the model':
-#     show_explore()
+if page == 'Explore the model':
+    show_explore()
