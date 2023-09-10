@@ -1,4 +1,5 @@
 import streamlit as st
+import sklearn
 # from backend import show_explore, show_try
 
 st.set_page_config(
