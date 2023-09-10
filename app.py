@@ -1,5 +1,5 @@
 import streamlit as st
-import sklearn
+import joblib
 # from backend import show_explore, show_try
 
 st.set_page_config(
@@ -11,6 +11,7 @@ st.set_page_config(
 # Sidebar 
 pages = ['Try the model', 'Explore the model']
 page = st.sidebar.selectbox('', pages)
+enc = joblib.load('cols.joblib')
 
 # # Pages
 # if page == 'Try the model':
