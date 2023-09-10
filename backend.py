@@ -18,6 +18,7 @@ def show_try():
         st.write("<h1 style='text-align:center'> How Much is Your House? </h1>",unsafe_allow_html=True)
         st.write("<p style='text-align:center'> Tell us some features about your house to predict its price. </p>",unsafe_allow_html=True)
         st.write("<p style='text-align:center'> Remember: the more features you add, the more accurate the prediction will be. </p>",unsafe_allow_html=True)
+        st.write("<p style='text-align:center'>[Note: empty fields will be guessed by the model] </p>",unsafe_allow_html=True)
 
         col1, col2 = st.columns(2)
 
