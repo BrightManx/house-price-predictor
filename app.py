@@ -12,6 +12,7 @@ st.set_page_config(
 pages = ['Try the model', 'Explore the model']
 page = st.sidebar.selectbox('', pages)
 enc = joblib.load('cols.joblib')
+st.write(enc)
 
 # # Pages
 # if page == 'Try the model':
