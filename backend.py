@@ -24,7 +24,7 @@ def show_try():
 
         with col1:
             st.selectbox('conditions', key='conditions', options=enc.categories_[0] )
-            st.number_input('construction_year', key='construction_year', step = 1, value = np.nan)
+            st.number_input('construction_year', key='construction_year', step = 1.0, value = np.nan)
             st.number_input('latitude', key='latitude', value = np.nan)
             st.number_input('longitude', key='longitude', value = np.nan)
             st.number_input('energy_efficiency', key='energy_efficiency', value = np.nan)
