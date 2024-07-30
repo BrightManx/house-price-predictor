@@ -6,7 +6,7 @@ Eventually, I deployed the final model through an interactive webapp [here](http
 This repo contains a folder `./submission/` where you can find:
 - `main.ipynb`, the notebook where all the magic happens;
 - `report.pdf`, the submitted report which summarizes what I've done and the conclusions I drawn.
-    
+
 The rest of the files contained in this repo are used to maintain the online webapp.
 ---
 **Skills**: data analysis, feature engineering, model selection, competitive problem solving  
